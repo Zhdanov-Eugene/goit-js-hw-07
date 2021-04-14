@@ -46,3 +46,19 @@ ingredientsListElement.append(...ingredients.map(ingredient => {
 // });
 
 // listElement.append(...ingredientElement);
+
+// Вар №3
+// const listElement = document.querySelector('#ingredients');
+// console.log(listElement);
+
+
+// const makeIngredientElement = ingredients => {
+//   return ingredients.map(ingredient => {
+//     const ingredientElement = document.createElement('li');
+//     ingredientElement.textContent = ingredient;
+
+//     return ingredientElement;
+//   });
+// };
+// const elements = makeIngredientElement(ingredients);
+// listElement.append(...ingredients);
