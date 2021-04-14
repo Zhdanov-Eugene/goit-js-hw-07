@@ -32,3 +32,17 @@ ingredientsListElement.append(...ingredients.map(ingredient => {
 //   'Приправы',
 // ];
 // Напиши скрипт, который для каждого элемента массива ingredients создаст отдельный li, после чего вставит все li за одну операцию в список ul.ingredients.Для создания DOM - узлов используй document.createElement().
+
+// Вариант скрипта № 2
+// const listElement = document.querySelector('#ingredients');
+// console.log(listElement);
+
+
+// const ingredientElement = ingredients.map(ingredient => {
+//   const ingredientElement = document.createElement('li');
+//   ingredientElement.textContent = ingredient;
+
+//   return ingredientElement;
+// });
+
+// listElement.append(...ingredientElement);
