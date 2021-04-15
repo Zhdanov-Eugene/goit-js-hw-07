@@ -20,6 +20,7 @@ inputTextElement.addEventListener('input', () => {
 //     console.log(event.currentTarget.value);
 //     refs.spanNameText.textContent = event.currentTarget.value;
 // };
+// refs уто контейнер для переменних с которого получаєм доступ refs.и имя переменной. Можна и без контейнера тогда просто буден const и имя переменной.
 
 // Напиши скрипт который, при наборе текста в инпуте input#name - input(событие input), подставляет его текущее значение в span#name - output.Если инпут пустой, в спане должна отображаться строка 'незнакомец'.
 
