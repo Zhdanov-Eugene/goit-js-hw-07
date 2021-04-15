@@ -21,10 +21,18 @@ const imagesGalleryElement = document.querySelector('#gallery');
 imagesGalleryElement.insertAdjacentHTML('afterbegin',
     images.reduce((accHTML, image) => accHTML + `<li><img src="${image.url}" alt="${image.alt}" height="360"></li>`, '')
 );
+// Вариант № 2
+// const galleryElement = document.querySelector('#gallery');
+// console.log('galleryElement', galleryElement);
 
+// const galleryElementImage = images.map(image => {
+//     const galleryElementImage = document.createElement('li');
+//     galleryElementImage.insertAdjacentHTML("afterbegin", `<li><img src="${image.url}" alt="${image.alt}" height="200"></li>`)
 
+//     return galleryElementImage;
+// });
 
-
+// galleryElement.append(...galleryElementImage);
 
 
 // Напиши скрипт для создания галлереи изображений по массиву данных.
